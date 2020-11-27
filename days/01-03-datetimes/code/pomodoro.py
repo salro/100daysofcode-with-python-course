@@ -31,9 +31,9 @@ def get_tasks():
 
 
 def timer(task, pomos):
-    pomo = timedelta(seconds=1)
-    short_break = timedelta(seconds=1)
-    long_break = timedelta(seconds=2)
+    pomo = timedelta(minutes=25)
+    short_break = timedelta(minutes=5)
+    long_break = timedelta(minutes=20)
     break_counter = 0
     end_time = datetime.now() + pomo
     pomos_counter = 0
